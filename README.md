@@ -11,7 +11,7 @@ These files are hosted on ops2.lsst.org located in Tucson, but there is a redire
 |8686  | Restricted |trackingDb_verify.db    | Catalog of all MAFs from opsim4 runs (V & V)                       |
 |8888  | Restricted | trackingDb_all.db      | Catalog of all MAFs from opsim3 runs                               |
 
-Each of the tracking databases can be launched on its assigned port, assuming an installed version of sims_maf tagged with opsim4, in the following way.
+Each of the tracking databases can be launched from ops2.lsst.org on its assigned port in the following way. Prerequisites are an installed version of sims_maf tagged as `opsim4`, and a `git clone` of this repository in `/home/lsst/maf-ports`.
 
 ```
   source /lsst_stack/loadLSST.csh
